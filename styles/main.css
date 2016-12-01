@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700,900|Archivo+Black');
+
+
+html {
+    font-size: 18px;
+}
+
+.main-section {
+    background: url("../img/back.jpg") center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.transparent {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+    background-size: cover;
+}
+
+.main-header {
+    height: 10vh;
+    margin-bottom: 55%;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: 2.7%;
+    margin-left: 6.5%;
+}
+
+
+.logotype {
+    font-size: 1rem;
+    color: #fff;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.dot {
+    display: inline;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.ham-block {
+    margin-top: 5%;
+    margin-right: 5.5%;
+}
+@media (min-width: 350px) {
+    .hamburger {
+        width:22px;
+        height:4px;
+        background-color:#fff;
+        position:relative;
+    }
+
+    .hamburger:after, .hamburger:before  {
+        content: '';
+        width: 100%;
+        height:4px;
+        background-color:#fff;
+        position:absolute;
+    }
+
+    .hamburger:after {
+        top:8px;
+    }
+
+    .hamburger:before {
+        top:16px;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .hamburger {
+        width: 30px;
+        height: 5px;
+        background-color: #fff;
+        position: relative;
+    }
+
+    .hamburger:after, .hamburger:before {
+        content: '';
+        width: 100%;
+        height: 5px;
+        background-color: #fff;
+        position: absolute;
+    }
+
+    .hamburger:after {
+        top: 10px;
+    }
+
+    .hamburger:before {
+        top: 20px;
+    }
+
+}
+
+.main-content {
+    color: #fff;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.belief {
+    font-family: "Adobe Caslon Pro", serif;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+.slash {
+
+    height: 7px;
+    width: 100px;
+    background-color: #fff;
+}
